@@ -96,6 +96,12 @@ argocd version
 
 Argo CD generates an initial admin password stored in a Kubernetes Secret.
 
+Search for ArgoCD Secrets in the namespace
+
+```bash
+kubectl get secrets -n argocd
+```
+
 ```bash
 kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d && echo
 ```
