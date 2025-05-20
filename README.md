@@ -106,6 +106,13 @@ kubectl get secrets -n argocd
 kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d && echo
 ```
 
+```bash
+Change the ArgoCD-Server to Nodeport to access the UI
+Check on which node the argocd server is running on 
+then we have 2 ports 80 and 443 
+Access the UI using the https://<Node IP>:<Nodeport of 443>
+```
+
 Use this password to log in (username: `admin`).
 
 ## Creating and Managing Applications
