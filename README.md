@@ -1,6 +1,5 @@
-***Argo CD Documentation**
+##Argo CD Documentation**
 
----
 
 ## Table of Contents
 
