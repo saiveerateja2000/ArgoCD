@@ -1,4 +1,4 @@
-**Argo CD Documentation**
+***Argo CD Documentation**
 
 ---
 
