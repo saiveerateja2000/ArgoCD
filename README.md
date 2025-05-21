@@ -92,6 +92,13 @@ Verify installation:
 argocd version
 ```
 
+Login to ArgoCD CLI:
+
+```bash
+argocd login <server name where argocd application is runnng >
+```
+provide username and password of argocd setup to login 
+
 ## Retrieving the Initial Admin Password
 
 Argo CD generates an initial admin password stored in a Kubernetes Secret.
