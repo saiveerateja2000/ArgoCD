@@ -2,4 +2,5 @@ kubectl config set-cluster kubernetes \
   --server=https://<cluster-public-ip>:6443 \
   --insecure-skip-tls-verify=true
 
-use this if the cluster add is not working i mean if u face the timeout error
+use this if the cluster add is not working i mean if u face the timeout error.
+after this run the argocd cluster add command
