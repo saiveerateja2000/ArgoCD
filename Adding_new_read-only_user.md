@@ -28,6 +28,11 @@ data:
   accounts.devuser: |
     login
 ```
+or
+```yaml
+data:
+  accounts.devuser: login
+```
 
 Save and exit. This enables the user to log in.
 
