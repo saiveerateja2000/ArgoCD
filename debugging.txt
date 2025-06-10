@@ -4,3 +4,7 @@ kubectl config set-cluster kubernetes \
 
 use this if the cluster add is not working i mean if u face the timeout error.
 after this run the argocd cluster add command
+
+
+the cluster name cannot be changed once it is already added to the argocd. so for that we need to do that before adding the cluster itself in the cli
+kubectl config rename-context arn:aws:eks:us-east-1:512345678902:cluster/Devops-cluster my-cluster
